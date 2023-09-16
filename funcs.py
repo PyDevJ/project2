@@ -1,9 +1,12 @@
-def folding(num_a, num_b):
+def folding():
     """Сложение двух чисел"""
-    return num_a + num_b
+    a = int(input("Введите число a "))
+    b = int(input("Введите число b "))
+    return print(f"Сумма чисел a и b равна {a + b}")
 
 
-a = int(input("Введите число a "))
-b = int(input("Введите число b "))
-
-print(f"Сумма чисел a и b равна {folding(a, b)}")
+def subtraction():
+    """Вычитание чисел"""
+    a = int(input("Введите число a "))
+    b = int(input("Введите число b "))
+    return print(f"Разность вычитания из числа a числа b равна {a - b}")
